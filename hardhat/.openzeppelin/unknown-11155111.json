@@ -1,0 +1,92 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xf69A69766dfBC54e1c1787Dc49c84BFc47e8cc5b",
+    "txHash": "0x5b8890e2286fb319b2253f19a67fcc0df837bb389c72b39e1187bfe98a2efbef"
+  },
+  "proxies": [
+    {
+      "address": "0x9e05e6c1E93BA56Ea001b8DD90AaaCa4d923a523",
+      "txHash": "0x5da2613b52955b4fee77bc35d9663f0b1e55584bab42053bd66234c399e0e4e9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd7C6B65D7A3369AA8Cc65004D1012bB2DE967a06",
+      "txHash": "0x0a0daf025a430a84d199b955b3bfdb25d311aa8c4f1073e13760eefbd986cdb4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xAF0147270c0251C3dF679cF39931856737662974",
+      "txHash": "0xeac3bcf847b63a6edf92a020d7fb048b04b6641c6c4ff1e9b715cfb37f03809a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x260B5d4dFDF241EcD866EFF8668e6d96E9bc22Af",
+      "txHash": "0x824ec2e073307df7fd04da771022a06575126a423bdacaea57ac677ef71e766c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF2E71b71521383CE9053fa65149c2b2b9c6f0A84",
+      "txHash": "0xf86866b63a7115d14702a0f67da48d2bdd068b00bb51cf03b9a8e7238c211fa1",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "07376781e9b6a62eb618381806376944fdacce1a111469df956f9b57eef8cc48": {
+      "address": "0x132dBFAD06D6d1Fa63b6A0776E18e32551Bd7b4E",
+      "txHash": "0xf2bd14726248dd916eb7f6a7073e495a59a593d3da5118b4ba1f1ef27ceb3423",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "length",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "BoxV1",
+            "src": "contracts/boxV1.sol:5"
+          },
+          {
+            "label": "width",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "BoxV1",
+            "src": "contracts/boxV1.sol:6"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
